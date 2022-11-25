@@ -1,0 +1,56 @@
+body{
+    font-family: 'Nunito Sans', sans-serif; 
+}
+
+
+#main-nav .nav-link.active{
+    color: lightgreen;
+}
+
+.main-header{
+    top: 0;
+    position: sticky;
+    z-index: 5;
+}
+
+.hero-section .carousel-item h5{
+    color: #fff;
+}
+
+.btn-primary{
+    background-color: rgb(95, 236, 149);
+    border-color: rgb(95, 236, 149);
+    color: #000;
+}
+
+.btn-primary:hover{
+    background-color: rgb(142, 255, 185);
+    border-color: rgb(142, 255, 185);
+    color: #000;
+    box-shadow: 0 2px 10px rgba(142, 255, 185,.15);
+}
+
+.card{
+    background-color: rgba(255,255,255,.05);
+    color: #fff;
+}
+
+.card .tag-cloud{
+    display:flex;
+    gap:5px;
+}
+
+.social-media-links a{
+    text-decoration: none;
+    color: cornflowerblue;
+}
+
+.social-media-links a:hover i{
+    transform: scale(1.1);
+}
+
+.social-media-links i{
+    font-size: 20px;
+    margin-right: 5px;
+    transition: .2s ease-in-out;
+}
